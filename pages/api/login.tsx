@@ -42,7 +42,7 @@ const login = async (req: NextApiRequest, res: NextApiResponse) => {
     sameSite: "strict",
   }));
 
-  res.status(200).json("Successfully logged in.")
+  res.status(200).json("Successfully logged in!...")
 };
 
 export default login
