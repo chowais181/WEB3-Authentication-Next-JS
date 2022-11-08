@@ -29,7 +29,7 @@ const authenticate = async (req: NextApiRequest, res: NextApiResponse) => {
   // Authenticate token with the SDK
   // this verifies the address of a client-side user on the backend
   const domain = process.env.NEXT_PUBLIC_DOMAIN_NAME
-  const address = await sdk.auth.authenticate(domain as string, token)
+  const address = await sdk.auth.authenticate(domain, token)
   // const address = await sdk.auth.verify(domain, token)
 
   // if valid token exists, send back the authenticated wallet address

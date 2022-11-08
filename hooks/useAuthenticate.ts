@@ -9,7 +9,7 @@ export default function useAuthenticate() {
     // prompts the connected wallet to sign a message and create payload
     // payload allows user to login by signing their wallet
     // payload = wallet address, chain_id, site domain, expiration_time, nonce
-    const payload = await sdk?.auth.login(domain as string);
+    const payload = await sdk?.auth.login(domain);
     // console.log(payload)
 
     // Check if the login payload is valid and get the address

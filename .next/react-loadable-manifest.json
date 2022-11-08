@@ -1,33 +1,26 @@
 {
   "../node_modules/@thirdweb-dev/react/dist/index.mjs -> ./es-SK5QVV6O.mjs": {
-    "id": 2351,
+    "id": "../node_modules/@thirdweb-dev/react/dist/index.mjs -> ./es-SK5QVV6O.mjs",
     "files": [
-      "static/chunks/351.0fe94715565e5af8.js"
+      "static/chunks/node_modules_thirdweb-dev_react_dist_es-SK5QVV6O_mjs.js"
     ]
   },
   "../node_modules/@thirdweb-dev/react/dist/index.mjs -> ./src-5J6QHFIL.mjs": {
-    "id": 196,
+    "id": "../node_modules/@thirdweb-dev/react/dist/index.mjs -> ./src-5J6QHFIL.mjs",
     "files": [
-      "static/chunks/5869affa.53fb1e4770d7d73d.js",
-      "static/chunks/798b660e.74b34a3622755237.js",
-      "static/chunks/529.bb4853b24cda2b71.js"
+      "static/chunks/node_modules_thirdweb-dev_react_dist_src-5J6QHFIL_mjs.js"
     ]
   },
   "../node_modules/@thirdweb-dev/react/dist/index.mjs -> ./src-W4EPEU2P.mjs": {
-    "id": 9495,
+    "id": "../node_modules/@thirdweb-dev/react/dist/index.mjs -> ./src-W4EPEU2P.mjs",
     "files": [
-      "static/chunks/529.bb4853b24cda2b71.js",
-      "static/chunks/822.7821d28e0153cdfd.js",
-      "static/chunks/495.7bf1b04ab1f7e05f.js"
+      "static/chunks/node_modules_thirdweb-dev_react_dist_src-W4EPEU2P_mjs.js"
     ]
   },
   "../node_modules/@thirdweb-dev/react/dist/index.mjs -> ./src-XAP253CV.mjs": {
-    "id": 6895,
+    "id": "../node_modules/@thirdweb-dev/react/dist/index.mjs -> ./src-XAP253CV.mjs",
     "files": [
-      "static/chunks/5869affa.53fb1e4770d7d73d.js",
-      "static/chunks/529.bb4853b24cda2b71.js",
-      "static/chunks/822.7821d28e0153cdfd.js",
-      "static/chunks/895.722a8c74b459e8e1.js"
+      "static/chunks/node_modules_thirdweb-dev_react_dist_src-XAP253CV_mjs.js"
     ]
   }
 }

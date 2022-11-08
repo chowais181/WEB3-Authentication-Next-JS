@@ -31,7 +31,7 @@ const login = async (req: NextApiRequest, res: NextApiResponse) => {
   // Generate an access/authentication token with the SDK using the signed payload
   // generateAuthToken calls the verify() function to ensure the validity of the payload
   const domain = process.env.NEXT_PUBLIC_DOMAIN_NAME
-  const token = await sdk.auth.generateAuthToken(domain as string, payload)
+  const token = await sdk.auth.generateAuthToken(domain, payload)
 
   // Securely set httpOnly cookie on request to prevent XSS on frontend
   // And set path to / to enable access_token usage on all endpoints
@@ -42,7 +42,7 @@ const login = async (req: NextApiRequest, res: NextApiResponse) => {
     sameSite: "strict",
   }));
 
-  res.status(200).json("Successfully logged in!...")
+  res.status(200).json("Successfully logged in.")
 };
 
 export default login
