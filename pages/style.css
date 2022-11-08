@@ -1,0 +1,26 @@
+body {
+  background-image: linear-gradient(
+    to right top,
+    #051937,
+    #004d7a,
+    #008793,
+    #00bf72,
+    #a8eb12
+  );
+  background-repeat: no-repeat;
+  color: rgb(247, 241, 230);
+  text-align: center;
+  padding: 20%;
+  font-size: large;
+}
+
+.btn {
+  padding: 1%;
+  font-size: small;
+  font-weight: bold;
+  background-color: darkgoldenrod;
+  color: aliceblue;
+  cursor: pointer;
+  border: #051937;
+  margin: 3px;
+}
