@@ -1,4 +1,5 @@
 # web3-authentication-next-js
+## Demo: https://web-3-authentication-next-js-ny5o-3p0r3u9ep-chowais181.vercel.app/
 ## View:
 ![Project Display](https://github.com/chowais181/WEB3-Authentication-Next-JS/blob/main/view.png)
 Web3 Client and Server authentication on NextJS using [Thirdweb's Authentication SDK](https://portal.thirdweb.com/auth)
